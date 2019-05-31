@@ -1,0 +1,27 @@
+{
+  "name": "jasonej/eloquent-uuid",
+  "description": "A package for utilizing uuids as primary keys on Eloquent models.",
+  "require": {
+    "illuminate/database": "^5.8"
+  },
+  "authors": [
+    {
+      "name": "Jason Jones",
+      "email": "jason.erik.jones+github@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jasonej\\EloquentUuid\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jasonej\\EloquentUuid\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8",
+    "moontoast/math": "^1.1"
+  }
+}
